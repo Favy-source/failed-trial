@@ -1,0 +1,220 @@
+ /* @import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700&display=swap');
+ {
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+     outline:none;
+     font-family: 'poppins', sans-serif;
+ }
+body{
+    background-image :url(./sample.jpg);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background:#111;
+}
+.container{
+    position: relative;
+    width:500px;
+    padding:40px;
+    background:#151515;
+}
+.container h2{
+    color:#999;
+    margin-bottom:45px;
+}
+.input-field{
+    position:relative;
+    height:40px;
+    width:100px;
+}
+
+
+
+
+
+
+    background-size: 80px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 140px;
+    min-height: 140px;
+    /* width: 100%; 
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.MODAL__modal-ud50ddd3c *, .MODAL__modal-ud50ddd3c :after, .MODAL__modal-ud50ddd3c :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.slideshow-component>.slideshow-slide.current {
+    z-index: 3;
+    visibility: visible;
+    top: 0;
+}
+.slideshow-component>.slideshow-slide {
+    position: absolute;
+    z-index: 1;
+    top: 200vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.MODAL__modal-content-u1cb894b7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+body {
+    font: 400 16px/24px "Macan","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #62646a;
+    width: 100%;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+.MODAL__modal-ud50ddd3c *, .MODAL__modal-ud50ddd3c :after, .MODAL__modal-ud50ddd3c :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.MODAL__modal-ud50ddd3c *, .MODAL__modal-ud50ddd3c :after, .MODAL__modal-ud50ddd3c :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #d5d4d2;
+    color: #fff;
+    text-shadow: none;
+}    */
+
+
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+    background-image: url(./sample.jpg);
+    font-family: cursive;
+	/* background-position: center; */
+	background-size: cover;
+}
+
+.cant{
+    border:1px red solid;
+
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left:50%; 
+	transform:translate(-50%,50%);
+	width: 400px;
+	background:rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius:10px; 
+	
+}
+.pass{
+	width: 100px;
+}
+.box h2
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+.box .inputbox
+{
+    position: relative;
+    /* align-items: left;
+    /* justify-content: right; 
+    border: 1px red solid;
+     */
+}
+.box .inputbox input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+.box .inputbox label
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+	width: 100px;
+}
+.box input[type="submit"]
+{
+	background: transparent;
+	border:none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.box {
+	position: left;
+	top: 60px;
+	left: 50;
+	color: transparent;
+	font-size: 24px;
+    background: url(./sample.jpg);
+    text-align: right;
+    border: 1px red solid;
+    display: flex;
+}
